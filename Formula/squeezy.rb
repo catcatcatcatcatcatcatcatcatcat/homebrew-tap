@@ -11,8 +11,8 @@ class Squeezy < Formula
   depends_on "ffmpeg"
 
   resource "miniaudio" do
-    url "https://files.pythonhosted.org/packages/17/68/8a0fd202c6f804070a1623d88f3b0882ab26bcd1a4e2bc684cfdab498a9d/miniaudio-1.61.tar.gz"
-    sha256 "4f0da7a46aac1e1b0e3c6faa3423ea89863e1417e839a8aff3d8a18c5fbe6849"
+    url "https://files.pythonhosted.org/packages/55/fa/96d4cc7ada283357117f7890418ac065a0a6d81ec59e681cd965a403aba3/miniaudio-1.61.tar.gz"
+    sha256 "e88e97837d031f0fb6982394218b6487de02eaa382ad273b8fca37791a2b4b15"
   end
 
   resource "cffi" do
