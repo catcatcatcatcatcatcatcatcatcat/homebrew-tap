@@ -3,8 +3,8 @@ class Squeezy < Formula
 
   desc "Minimal Squeezebox player for Lyrion Music Server"
   homepage "https://github.com/catcatcatcatcatcatcatcatcatcat/squeezy"
-  url "https://github.com/catcatcatcatcatcatcatcatcatcat/squeezy/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "65ecd0ab4a95979c78a11cca4d76eceea8a6e2a17a179ea58a666871a5801241"
+  url "https://github.com/catcatcatcatcatcatcatcatcatcat/squeezy/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "2e634e55c66d3e0d584bf4ca15b0bf52bac294953fcb3e6d20ca56659ca72da8"
   license "MIT"
 
   depends_on "python@3.13"
