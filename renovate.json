@@ -2,5 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "description": "Formula/squeezy.rb is owned by squeezy's .github/workflows/update-homebrew-tap.yml, which rewrites url + sha256 on every v* tag and regenerates the Python resource blocks with `brew update-python-resources`. Renovate can only bump the top-level url, so letting it near this file means racing the release workflow and leaving the resource blocks stale. Renovate stays enabled for everything else in the tap.",
+      "matchFileNames": [
+        "Formula/squeezy.rb"
+      ],
+      "enabled": false
+    }
   ]
 }
